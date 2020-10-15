@@ -1,0 +1,28 @@
+########### utils ####################
+openssh-server
+apt-transport-https
+ca-certificates
+curl
+software-properties-common
+vim
+traceroute
+python-jinja2
+python-netaddr
+python-apt
+python-minimal
+rsync
+socat
+unzip
+e2fsprogs
+xfsprogs
+conntrack
+tcpdump
+arptables
+lvm2
+############# K8S #############
+ipvsadm
+ipset
+docker-ce
+kubeadm
+kubectl
+kubelet
