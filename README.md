@@ -1,7 +1,12 @@
 # kubespray
 Forked from [kubespray](https://github.com/kubernetes-sigs/kubespray)
 
-setup:
+Setup:
+
+Due to the GFW, firstly we need to install kubernetes and related packages first(packages.txt) 
+and make a VM image for all the kubernetes nodes, the kubernetes related docker images can also
+be included in the VM image for fast kubernetes installation.
+
 ```ShellSession
 # update the host lists to inventory/XXX/inventory.ini first
 vi inventory/XXX/inventory.ini
@@ -25,5 +30,5 @@ You will get get the K8S cluster:
 - 3 nodes cluster for etcd
 
 
-issues:
+Issues:
 - fix coredns crash with the doc [loop](https://coredns.io/plugins/loop/#troubleshooting)
