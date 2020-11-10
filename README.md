@@ -3,8 +3,8 @@ Forked from [kubespray](https://github.com/kubernetes-sigs/kubespray)
 
 Setup:
 
-Due to the GFW, firstly we need to install kubernetes and related packages first(packages.txt) 
-and make a VM image for all the kubernetes nodes, the kubernetes related docker images can also
+Due to the GFW, firstly we need to install kubernetes and related packages(packages.txt) in a VM,
+ then make a VM image for all the kubernetes nodes, the kubernetes related docker images can also
 be included in the VM image for fast kubernetes installation.
 
 ```ShellSession
