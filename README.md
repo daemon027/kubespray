@@ -32,3 +32,4 @@ You will get get the K8S cluster:
 
 Issues:
 - fix coredns crash with the doc [loop](https://coredns.io/plugins/loop/#troubleshooting)
+  for ubuntu, just comment 'dns=dnsmasq' in /etc/NetworkManager/NetworkManager.conf

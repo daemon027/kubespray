@@ -68,6 +68,7 @@
 
 - name: ensure containerd packages are installed
   action: "{{ containerd_package_info.pkg_mgr }}"
+  #action: "{{ containerd_package_info.pkgs }}"
   args:
     pkg: "{{ item.name }}"
     force: "{{ item.force | default(omit) }}"
@@ -92,6 +93,7 @@
 
 - name: Install runc package if necessary
   action: "{{ containerd_package_info.pkg_mgr }}"
+  #action: "{{ containerd_package_info.pkgs }}"
   args:
     pkg: runc
     state: present
